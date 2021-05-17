@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import Main from './main/Main';
-import Footer from './Footer';
 import cards from './CardsArray';
 
 function App() {
@@ -11,13 +10,10 @@ function App() {
     setCardsAttay(cards);
   }, []);
 
-  console.log(cardsArray)
-
   return (
     <div className="container">
       <Header />
-      <Main />
-      <Footer />
+      {cardsArray && <Main cardsArray={cardsArray} />}
     </div>
   );
 }
