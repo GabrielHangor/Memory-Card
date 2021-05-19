@@ -3,6 +3,7 @@ import Header from './Header';
 import Main from './main/Main';
 import cards from './CardsArray';
 import shuffle from 'lodash/shuffle';
+import Loader from './main/Loader';
 
 function App() {
   const [cardsArray, setCardsArray] = useState();
@@ -13,14 +14,6 @@ function App() {
   useEffect(() => {
     setCardsArray(cards);
   }, []);
-
-  // const setIsClicked = (id) => {
-  //   setCardsArray(
-  //     cardsArray.map((card) =>
-  //       card.id === id ? { ...card, clicked: true } : card
-  //     )
-  //   );
-  // };
 
   const handleClick = () => {
     const shuffledArray = shuffle(cardsArray);
@@ -37,7 +30,7 @@ function App() {
 
       setTimeout(() => {
         setDoubleClicked(false);
-      }, 1000);
+      }, 500);
     }
   };
 
@@ -50,7 +43,9 @@ function App() {
           handleClick={handleClick}
           cardsArray={cardsArray}
         />
-      ) : null}
+      ) : (
+        <Loader />
+      )}
     </div>
   );
 }
