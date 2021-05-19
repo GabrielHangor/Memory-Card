@@ -1,14 +1,15 @@
 import React from 'react';
 import { useState } from 'react';
 
-function Card({ src, name, handleClick, id }) {
+function Card({ src, name, handleClick, checkResults }) {
   const [isClicked, setIsClicked] = useState(false);
 
   return (
     <div
       onClick={() => {
-        handleClick(id);
+        handleClick();
         setIsClicked(true);
+        checkResults(isClicked);
       }}
       className="card"
     >

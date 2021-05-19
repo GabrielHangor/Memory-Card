@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header() {
+function Header({ currentScore, bestScore }) {
   return (
     <div className="header">
       <div className="header-text">
@@ -11,8 +11,8 @@ function Header() {
         </h3>
       </div>
       <div className="header-values">
-        <h2>Current Score: 0</h2>
-        <h2>Best Score: 0</h2>
+        <h2>Current Score: {currentScore}</h2>
+        <h2>Best Score: {bestScore}</h2>
       </div>
     </div>
   );

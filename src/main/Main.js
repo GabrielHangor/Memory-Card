@@ -1,14 +1,14 @@
 import React from 'react';
 import Card from './Card';
 
-function Main({ cardsArray, handleClick }) {
+function Main({ cardsArray, handleClick, checkResults }) {
   return (
     <div className="cards-container">
       {cardsArray.map((card) => {
         const { id, src, name } = card;
         return (
           <Card
-            id={id}
+            checkResults={checkResults}
             handleClick={handleClick}
             key={id}
             src={src}

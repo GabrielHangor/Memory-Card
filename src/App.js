@@ -5,29 +5,46 @@ import cards from './CardsArray';
 import shuffle from 'lodash/shuffle';
 
 function App() {
-  const [cardsArray, setCardsAttay] = useState();
+  const [cardsArray, setCardsArray] = useState();
+  const [currentScore, setCurrentScore] = useState(0);
+  const [bestScore, setBestScore] = useState(0);
 
   useEffect(() => {
-    setCardsAttay(cards);
+    setCardsArray(cards);
   }, []);
 
   // const setIsClicked = (id) => {
-  //   setCardsAttay(
+  //   setCardsArray(
   //     cardsArray.map((card) =>
   //       card.id === id ? { ...card, clicked: true } : card
   //     )
   //   );
   // };
 
-  const handleClick = (id) => {
+  const handleClick = () => {
     const shuffledArray = shuffle(cardsArray);
-    setCardsAttay(shuffledArray);
+    setCardsArray(shuffledArray);
+  };
+
+  const checkResults = (isClicked) => {
+    if (!isClicked) {
+      setCurrentScore(currentScore + 1);
+    } else if (isClicked) {
+      setBestScore(currentScore);
+      setCurrentScore(0);
+    }
   };
 
   return (
     <div className="container">
-      <Header />
-      {cardsArray && <Main handleClick={handleClick} cardsArray={cardsArray} />}
+      <Header currentScore={currentScore} bestScore={bestScore} />
+      {cardsArray && (
+        <Main
+          checkResults={checkResults}
+          handleClick={handleClick}
+          cardsArray={cardsArray}
+        />
+      )}
     </div>
   );
 }
