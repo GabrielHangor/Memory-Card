@@ -30,7 +30,7 @@ function App() {
 
       setTimeout(() => {
         setDoubleClicked(false);
-      }, 500);
+      }, 800);
     }
   };
 

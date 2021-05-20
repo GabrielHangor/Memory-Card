@@ -59,6 +59,36 @@ const cardsArray = [
     src: 'images/Nanao.png',
     name: 'Nanao Ise',
   },
+  {
+    id: 12,
+    src: 'images/Aisslinger.png',
+    name: 'Aisslinger Wernarr',
+  },
+  {
+    id: 13,
+    src: 'images/Ulquiorra.png',
+    name: 'Ulquiorra Cifer',
+  },
+  {
+    id: 14,
+    src: 'images/Isane.png',
+    name: 'Isane Kotetsu',
+  },
+  {
+    id: 15,
+    src: 'images/Hisagi.png',
+    name: 'Shūhei Hisagi',
+  },
+  {
+    id: 16,
+    src: 'images/Uryu.png',
+    name: 'Uryū Ishida',
+  },
+  {
+    id: 17,
+    src: 'images/Kon.png',
+    name: 'Kon',
+  },
 ];
 
 export default cardsArray;

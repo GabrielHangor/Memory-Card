@@ -5,6 +5,7 @@ function Loader() {
   return (
     <div className="loader-container">
       <ReactLogo />
+      <h1>You have lost! Try again.</h1>
     </div>
   );
 }
