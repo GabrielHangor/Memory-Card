@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/GabrielHangor/Memory-Card/static/css/main.495ba8f7.chunk.css",
-    "main.js": "/GabrielHangor/Memory-Card/static/js/main.7840938e.chunk.js",
-    "main.js.map": "/GabrielHangor/Memory-Card/static/js/main.7840938e.chunk.js.map",
-    "runtime-main.js": "/GabrielHangor/Memory-Card/static/js/runtime-main.59618078.js",
-    "runtime-main.js.map": "/GabrielHangor/Memory-Card/static/js/runtime-main.59618078.js.map",
-    "static/js/2.1f4d573c.chunk.js": "/GabrielHangor/Memory-Card/static/js/2.1f4d573c.chunk.js",
-    "static/js/2.1f4d573c.chunk.js.map": "/GabrielHangor/Memory-Card/static/js/2.1f4d573c.chunk.js.map",
-    "index.html": "/GabrielHangor/Memory-Card/index.html",
-    "static/css/main.495ba8f7.chunk.css.map": "/GabrielHangor/Memory-Card/static/css/main.495ba8f7.chunk.css.map",
-    "static/js/2.1f4d573c.chunk.js.LICENSE.txt": "/GabrielHangor/Memory-Card/static/js/2.1f4d573c.chunk.js.LICENSE.txt",
-    "static/media/spinner.6dc42cd4.svg": "/GabrielHangor/Memory-Card/static/media/spinner.6dc42cd4.svg"
+    "main.css": "/GabrielHangor/Memory-Card/tree/gh-pages/static/css/main.495ba8f7.chunk.css",
+    "main.js": "/GabrielHangor/Memory-Card/tree/gh-pages/static/js/main.2c0e815b.chunk.js",
+    "main.js.map": "/GabrielHangor/Memory-Card/tree/gh-pages/static/js/main.2c0e815b.chunk.js.map",
+    "runtime-main.js": "/GabrielHangor/Memory-Card/tree/gh-pages/static/js/runtime-main.c766594d.js",
+    "runtime-main.js.map": "/GabrielHangor/Memory-Card/tree/gh-pages/static/js/runtime-main.c766594d.js.map",
+    "static/js/2.1f4d573c.chunk.js": "/GabrielHangor/Memory-Card/tree/gh-pages/static/js/2.1f4d573c.chunk.js",
+    "static/js/2.1f4d573c.chunk.js.map": "/GabrielHangor/Memory-Card/tree/gh-pages/static/js/2.1f4d573c.chunk.js.map",
+    "index.html": "/GabrielHangor/Memory-Card/tree/gh-pages/index.html",
+    "static/css/main.495ba8f7.chunk.css.map": "/GabrielHangor/Memory-Card/tree/gh-pages/static/css/main.495ba8f7.chunk.css.map",
+    "static/js/2.1f4d573c.chunk.js.LICENSE.txt": "/GabrielHangor/Memory-Card/tree/gh-pages/static/js/2.1f4d573c.chunk.js.LICENSE.txt",
+    "static/media/spinner.6dc42cd4.svg": "/GabrielHangor/Memory-Card/tree/gh-pages/static/media/spinner.6dc42cd4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.59618078.js",
+    "static/js/runtime-main.c766594d.js",
     "static/js/2.1f4d573c.chunk.js",
     "static/css/main.495ba8f7.chunk.css",
-    "static/js/main.7840938e.chunk.js"
+    "static/js/main.2c0e815b.chunk.js"
   ]
 }
